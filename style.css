@@ -1,0 +1,71 @@
+header{
+    background-color:lightblue;
+    padding: 10px;
+    text-align: center;
+    font-size:large;
+}
+nav{
+    text-align: center;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:4px;
+    background-color: aquamarine;
+}
+.home:hover {
+   background-color:whitesmoke;
+    
+}
+.recipes:hover {
+    background-color:whitesmoke;
+     
+ }
+ .products:hover {
+    background-color:whitesmoke;
+     
+ }
+ .store:hover {
+    background-color:whitesmoke;
+     
+ }
+ .part1{
+width: 40%;
+margin: 0 auto; 
+ }
+ .part2{
+    width: 40%;
+    padding: 20px;
+    margin:0 auto;
+ }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 50%;
+}
+.foot {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:4px;
+    background-color: cadetblue;
+    padding:10px;
+   
+}
+.aboutus:hover {
+    background-color:whitesmoke;    
+ }
+ .contacts:hover {
+     background-color:whitesmoke;
+      
+  }
+  .help:hover {
+     background-color:whitesmoke;
+      
+  }
+  .settings:hover {
+     background-color:whitesmoke;    
+  }
+footer {
+    text-align: center;
+}
